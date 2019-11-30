@@ -31,14 +31,14 @@ body {
   width: 100%;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   padding: 0 1.5rem;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
 }
 
-.left-banner  {
+.left-banner {
   width: 33%;
 }
 
@@ -71,4 +71,12 @@ div p {
   text-decoration: none;
   color: #fff;
   margin-bottom: .2em;
+}
+
+.btn {
+  font-family: Roboto, sans-serif;
+}
+
+.btn:hover {
+  background-color: #000;
 }
